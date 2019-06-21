@@ -127,7 +127,11 @@ html {
 }
 
 .paper-mode {
-  --alt-bg-color: #daddd8;
+  --alt-bg-color: radial-gradient(
+    circle 905px at 4.9% 85.8%,
+    rgb(242, 244, 247) 0.1%,
+    rgba(230, 230, 240, 0.788) 57.6%
+  );
   --accent-color: #2e1e21;
   --primary-color: #ecebe4;
   --main-bg-color: #eef0f2;
@@ -377,7 +381,8 @@ footer {
     "description description";
   grid-template-columns: 1fr 1fr;
   align-items: end;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12) inset,
+    0 1px 2px rgba(0, 0, 0, 0.24) inset;
 }
 
 .work-history-company,
@@ -457,6 +462,11 @@ footer {
   h4,
   h5 {
     font-size: 60%;
+  }
+
+  a,
+  a:visited {
+    color: #111;
   }
 
   .box-text p {
