@@ -416,7 +416,6 @@ footer {
 }
 
 .work-history-description {
-  margin-top: 0.5rem;
   grid-area: description;
   text-align: center;
   padding: 0.25rem;
@@ -461,7 +460,7 @@ footer {
   h3,
   h4,
   h5 {
-    font-size: 60%;
+    font-size: 50%;
   }
 
   a,
@@ -471,6 +470,7 @@ footer {
 
   .box-text p {
     margin: 0.25rem;
+    line-height: 1;
   }
 
   .small-text {
